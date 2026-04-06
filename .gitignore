@@ -1,0 +1,8 @@
+.obsidian/
+raw/
+.trash/
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+__pycache__/
