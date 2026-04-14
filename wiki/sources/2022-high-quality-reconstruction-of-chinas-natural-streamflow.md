@@ -3,9 +3,9 @@ title: "High-quality reconstruction of China's natural streamflow"
 type: source
 status: active
 created: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-10
 sources:
-  - "raw/papers/2022-high-quality-reconstruction-of-chinas-natural-streamflow.pdf"
+  - "raw/papers/ingested/2022-high-quality-reconstruction-of-chinas-natural-streamflow.pdf"
   - "[[sources/2022-high-quality-reconstruction-of-chinas-natural-streamflow-supplementary-materials]]"
 ---
 

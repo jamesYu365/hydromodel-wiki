@@ -20,7 +20,7 @@ The wiki is the working knowledge base. Raw sources are the source of truth. Cod
 ## Environment
 
 - Use the `agent` conda environment by default for repo commands and tooling.
-- Prefer `conda run -n agent <command>` when invoking Python or PDF utilities.
+- On this machine, prefer `conda activate agent` and then run the command, instead of `conda run`, because the current console is typically `gbk` encoded and `conda run` can break on Unicode-heavy output.
 - `pdftotext` is installed in the `agent` environment and should be used there for PDF text extraction.
 - If a command fails outside `agent`, retry it inside `agent` before assuming the tool is unavailable.
 - On Windows, assume the terminal may default to `gbk`. For Python commands that print extracted document text, prefer UTF-8-safe execution such as `python -X utf8 ...` or emit ASCII-safe / escaped output when needed.
@@ -28,6 +28,7 @@ The wiki is the working knowledge base. Raw sources are the source of truth. Cod
 ## Raw Source Naming
 
 - Follow [docs/raw-source-naming.md](H:\myprj\LLM_Wiki\docs\raw-source-naming.md) as the source of truth for naming and placement rules.
+- Once a source has been ingested and recorded in `wiki/index.md`, move its raw file from `raw/papers/` into `raw/papers/ingested/` by default and update the corresponding `wiki/sources/` frontmatter path at the same time.
 
 ## Global Rules
 
@@ -58,6 +59,10 @@ sources: []
 ## Ingest Workflow
 
 Follow [docs/ingest-workflow.md](H:\myprj\LLM_Wiki\docs\ingest-workflow.md).
+
+Additional default:
+
+- After completing an ingest and updating `wiki/index.md`, move the ingested raw source artifact into `raw/papers/ingested/` unless the user explicitly wants a different placement.
 
 ## Query Workflow
 

@@ -6,6 +6,7 @@ created: 2026-04-05
 updated: 2026-04-05
 sources:
   - "[[sources/2021-cnrd-v1-0-a-high-quality-natural-runoff-dataset-for-hydrological-and-climate-studies-in-china]]"
+  - "[[sources/2022-model-estimates-of-chinas-terrestrial-water-storage-variation-due-to-reservoir-operation]]"
   - "[[sources/2022-high-quality-reconstruction-of-chinas-natural-streamflow]]"
   - "[[sources/2022-high-quality-reconstruction-of-chinas-natural-streamflow-supplementary-materials]]"
   - "[[sources/2024-satellite-based-precipitation-error-propagation-in-the-hydrological-modeling-chain-across-china]]"
@@ -24,6 +25,7 @@ This topic tracks datasets used to describe Chinese runoff and streamflow, espec
 - Existing global runoff and streamflow products often have uneven station coverage and data gaps in China.
 - China-focused datasets can provide stronger local calibration and better treatment of human disturbance, but they differ in scope, resolution, and reconstruction assumptions.
 - `CNRD v1.0` provides gridded natural runoff at `0.25°` resolution and daily/monthly/annual scales for 1961 to 2018, giving this wiki a public runoff-oriented reference product.
+- The 2022 Dong et al. paper adds a different dataset/modeling object: reservoir water storage and terrestrial water storage variation under explicit reservoir operation, not just runoff or outlet streamflow.
 - The 2022 Miao et al. dataset is a foundational entry in this wiki because it provides long-term reconstructed monthly natural streamflow across 330 catchments.
 - Its supplementary materials are also important because they expose the data-quality logic, station composition, and post-processing details behind the dataset.
 - The 2024 precipitation-error paper adds a forcing-quality perspective, showing that precipitation uncertainty propagates differently into runoff and streamflow outputs across China.
@@ -35,6 +37,7 @@ This topic tracks datasets used to describe Chinese runoff and streamflow, espec
 - [[sources/2022-high-quality-reconstruction-of-chinas-natural-streamflow]] positions its contribution against global products such as GRDB, GSIM, and other runoff reconstructions that are weaker for China-specific natural-flow analysis.
 - [[sources/2022-high-quality-reconstruction-of-chinas-natural-streamflow-supplementary-materials]] adds the operational detail needed to compare this dataset fairly with later China-specific products.
 - [[sources/2021-cnrd-v1-0-a-high-quality-natural-runoff-dataset-for-hydrological-and-climate-studies-in-china]] adds a public gridded runoff product that should be compared with the 2022 streamflow reconstruction rather than conflated with it.
+- [[sources/2022-model-estimates-of-chinas-terrestrial-water-storage-variation-due-to-reservoir-operation]] adds a reservoir-operation and terrestrial-water-storage perspective, making human-managed storage itself part of the modeled hydrological state.
 - [[sources/2024-satellite-based-precipitation-error-propagation-in-the-hydrological-modeling-chain-across-china]] adds the missing forcing-error layer needed to interpret why some hydrological products may look more or less reliable downstream.
 - [[sources/2025-warming-climate-and-water-withdrawals-threaten-river-flow-connectivity-in-china]] shows how these datasets and models can be used to answer higher-level ecological and water-management questions.
 - [[sources/2025-warming-climate-and-water-withdrawals-threaten-river-flow-connectivity-in-china-supporting-information]] adds the methodological detail needed to judge whether 2025 should be viewed as a simple update, a workflow extension, or both.
@@ -56,6 +59,7 @@ This topic tracks datasets used to describe Chinese runoff and streamflow, espec
 - [[topics/precipitation-forcing-error-propagation]]
 - [[topics/river-flow-connectivity]]
 - [[sources/2021-cnrd-v1-0-a-high-quality-natural-runoff-dataset-for-hydrological-and-climate-studies-in-china]]
+- [[sources/2022-model-estimates-of-chinas-terrestrial-water-storage-variation-due-to-reservoir-operation]]
 - [[sources/2022-high-quality-reconstruction-of-chinas-natural-streamflow]]
 - [[sources/2022-high-quality-reconstruction-of-chinas-natural-streamflow-supplementary-materials]]
 - [[sources/2025-warming-climate-and-water-withdrawals-threaten-river-flow-connectivity-in-china-supporting-information]]

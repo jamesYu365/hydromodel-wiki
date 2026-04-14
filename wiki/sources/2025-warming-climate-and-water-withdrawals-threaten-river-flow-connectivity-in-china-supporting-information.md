@@ -3,9 +3,9 @@ title: "Warming climate and water withdrawals threaten river flow connectivity i
 type: source
 status: active
 created: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-10
 sources:
-  - "raw/papers/2025-warming-climate-and-water-withdrawals-threaten-river-flow-connectivity-in-china-supporting-information.pdf"
+  - "raw/papers/ingested/2025-warming-climate-and-water-withdrawals-threaten-river-flow-connectivity-in-china-supporting-information.pdf"
 ---
 
 # Warming climate and water withdrawals threaten river flow connectivity in China supporting information

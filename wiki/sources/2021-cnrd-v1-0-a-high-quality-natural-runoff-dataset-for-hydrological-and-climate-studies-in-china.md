@@ -3,9 +3,9 @@ title: "CNRD v1.0: A high-quality natural runoff dataset for hydrological and cl
 type: source
 status: active
 created: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-10
 sources:
-  - "raw/papers/2021-cnrd-v1-0-a-high-quality-natural-runoff-dataset-for-hydrological-and-climate-studies-in-china.pdf"
+  - raw/papers/ingested/2021-cnrd-v1-0-a-high-quality-natural-runoff-dataset-for-hydrological-and-climate-studies-in-china.pdf
 ---
 
 # CNRD v1.0: A high-quality natural runoff dataset for hydrological and climate studies in China

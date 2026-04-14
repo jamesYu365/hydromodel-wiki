@@ -21,7 +21,7 @@ This wiki is a research workspace maintained by Codex. Raw sources live in `raw/
 
 ## Current State
 
-The wiki scaffold is ready, but no sources have been ingested yet.
+The wiki scaffold is ready and seeded with an initial source set on China hydrology, runoff and streamflow reconstruction, forcing uncertainty, river-flow connectivity, and reservoir-operation impacts on terrestrial water storage.
 
 ## Related
 

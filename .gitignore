@@ -6,3 +6,4 @@ Desktop.ini
 *.tmp
 *.temp
 __pycache__/
+references/

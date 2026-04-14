@@ -3,9 +3,9 @@ title: "Satellite-based precipitation error propagation in the hydrological mode
 type: source
 status: active
 created: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-10
 sources:
-  - "raw/papers/2024-satellite-based-precipitation-error-propagation-in-the-hydrological-modeling-chain-across-china.pdf"
+  - "raw/papers/ingested/2024-satellite-based-precipitation-error-propagation-in-the-hydrological-modeling-chain-across-china.pdf"
 ---
 
 # Satellite-based precipitation error propagation in the hydrological modeling chain across China

@@ -17,7 +17,8 @@ Use this procedure when adding a new source into the wiki.
 5. Create or update entity pages only when they are clearly useful and likely to recur.
 6. Add links between the affected pages.
 7. Update `wiki/index.md`.
-8. Append an entry to `wiki/log.md`.
+8. Move the ingested raw artifact into `raw/papers/ingested/` when the source lives under `raw/papers/`, and update the `sources` frontmatter path in the corresponding source page.
+9. Append an entry to `wiki/log.md`.
 
 ## Source Page Expectations
 
@@ -25,6 +26,7 @@ Use this procedure when adding a new source into the wiki.
 - Record the key claims, methods, evidence, and caveats.
 - Link to the most relevant topic and entity pages.
 - Keep the summary concise and useful for later synthesis.
+- Ensure the frontmatter `sources` list points to the current raw-file location after any post-ingest move.
 
 ## Decision Rules
 
@@ -32,3 +34,4 @@ Use this procedure when adding a new source into the wiki.
 - If a source is supplementary material, connect it to the main paper page.
 - If a source contradicts existing wiki content, note the conflict explicitly.
 - If confidence is low, preserve uncertainty instead of forcing a conclusion.
+- If a new paper introduces a distinct methodological thread, prefer adding a durable topic page over forcing it into an existing but mismatched topic.

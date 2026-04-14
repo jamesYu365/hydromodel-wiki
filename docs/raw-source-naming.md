@@ -12,6 +12,7 @@ Use this procedure when organizing files under `raw/`.
 ## Folder Placement
 
 - Put research papers and supplements in `raw/papers/`.
+- After a paper in `raw/papers/` has been ingested and recorded in `wiki/index.md`, move it to `raw/papers/ingested/`.
 - Put clipped articles in `raw/articles/`.
 - Put books or book chapters in `raw/books/`.
 - Put personal notes or ad hoc materials in `raw/notes/`.
@@ -39,6 +40,12 @@ Examples:
 4. Choose the actual paper title, even if it spans multiple lines.
 5. Derive the normalized filename from the publication year and title.
 6. Move the file into the correct `raw/` subfolder.
+
+## Post-Ingest Placement
+
+- Treat `raw/papers/` as the active staging area for papers not yet ingested.
+- Treat `raw/papers/ingested/` as the default holding area for papers that already have source pages and are listed in `wiki/index.md`.
+- When moving a file into `raw/papers/ingested/`, update the corresponding `wiki/sources/` frontmatter path in the same change.
 
 Example command:
 
